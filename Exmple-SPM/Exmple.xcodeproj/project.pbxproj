@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A944C32F2D0C570300279E1A /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A944C32E2D0C570300279E1A /* MyLibrary */; };
+		A944C3482D0C5E2800279E1A /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A944C3472D0C5E2800279E1A /* MyLibrary */; };
 		A9CB8E7B2D0C55BB00C3261F /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A9CB8E7A2D0C55BB00C3261F /* MyLibrary */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A944C3482D0C5E2800279E1A /* MyLibrary in Frameworks */,
 				A944C32F2D0C570300279E1A /* MyLibrary in Frameworks */,
 				A9CB8E7B2D0C55BB00C3261F /* MyLibrary in Frameworks */,
 			);
@@ -95,6 +97,7 @@
 			packageProductDependencies = (
 				A9CB8E7A2D0C55BB00C3261F /* MyLibrary */,
 				A944C32E2D0C570300279E1A /* MyLibrary */,
+				A944C3472D0C5E2800279E1A /* MyLibrary */,
 			);
 			productName = Exmple;
 			productReference = A9CB8DFB2D0C4F9700C3261F /* Exmple.app */;
@@ -125,7 +128,7 @@
 			mainGroup = A9CB8DF22D0C4F9700C3261F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				A944C32D2D0C570300279E1A /* XCLocalSwiftPackageReference "../DeviceModel" */,
+				A944C3462D0C5E2800279E1A /* XCLocalSwiftPackageReference "../../DeviceModel" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A9CB8DFC2D0C4F9700C3261F /* Products */;
@@ -365,14 +368,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		A944C32D2D0C570300279E1A /* XCLocalSwiftPackageReference "../DeviceModel" */ = {
+		A944C3462D0C5E2800279E1A /* XCLocalSwiftPackageReference "../../DeviceModel" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../DeviceModel;
+			relativePath = ../../DeviceModel;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		A944C32E2D0C570300279E1A /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+		A944C3472D0C5E2800279E1A /* MyLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MyLibrary;
 		};
